@@ -1,4 +1,4 @@
-package sa.main.entity;
+package com.main.entity;
 
 import java.util.Date;
 
@@ -8,21 +8,14 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "tbl_category")
-public class Category {
+@Table(name = "tbl_comment")
+public class Comment {
 	@Id
 	@Column(name = "id")
 	private int id;
 
-	@Column(name = "category_name")
-	private String categoryName;
-
-	@Column(name = "category_description")
-	private String categorDescription;
-
-	@Column(name = "is_active")
-	private boolean isActive;
-
+	@Column(name = "description")
+	private String description;
 	@Column(name = "added_by")
 	private int addedBy;
 
@@ -43,28 +36,12 @@ public class Category {
 		this.id = id;
 	}
 
-	public String getCategoryName() {
-		return categoryName;
+	public String getDescription() {
+		return description;
 	}
 
-	public void setCategoryName(String categoryName) {
-		this.categoryName = categoryName;
-	}
-
-	public String getCategorDescription() {
-		return categorDescription;
-	}
-
-	public void setCategorDescription(String categorDescription) {
-		this.categorDescription = categorDescription;
-	}
-
-	public boolean isActive() {
-		return isActive;
-	}
-
-	public void setActive(boolean isActive) {
-		this.isActive = isActive;
+	public void setDescription(String description) {
+		this.description = description;
 	}
 
 	public int getAddedBy() {
@@ -101,9 +78,8 @@ public class Category {
 
 	@Override
 	public String toString() {
-		return "Category [id=" + id + ", categoryName=" + categoryName + ", categorDescription=" + categorDescription
-				+ ", isActive=" + isActive + ", addedBy=" + addedBy + ", updatedBy=" + updatedBy + ", addedDate="
-				+ addedDate + ", upadatedDate=" + upadatedDate + "]";
+		return "Comment [id=" + id + ", description=" + description + ", addedBy=" + addedBy + ", updatedBy="
+				+ updatedBy + ", addedDate=" + addedDate + ", upadatedDate=" + upadatedDate + "]";
 	}
 
 }

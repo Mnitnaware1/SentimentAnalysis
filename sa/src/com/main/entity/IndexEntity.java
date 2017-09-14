@@ -1,4 +1,4 @@
-package sa.main.entity;
+package com.main.entity;
 
 public class IndexEntity {
 

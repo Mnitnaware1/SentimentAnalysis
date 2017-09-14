@@ -22,21 +22,63 @@
 					name="frmAddFrom" id="frmAddFrom" enctype="multipart/form-data"
 					action="">
 					<div class="form-group">
-						<label class="col-sm-2 control-label no-padding-right"
-							for="form-field-1-1">CATEGORY NAME</label>
-						<div class="col-sm-8">
-							<input type="text" id="form-field-1-1" autofocus=""
-								placeholder="BRANCH NAME" name="txtDeptName" value=""
-								class="form-control">
+						<div class="col-sm-6">
+							<label class="col-sm-4 control-label no-padding-right"
+								for="form-field-1-1">CATEGORY NAME</label>
+							<div class="col-sm-8">
+								<input type="text" id="form-field-1-1" autofocus=""
+									placeholder="BRANCH NAME" name="txtDeptName" value=""
+									class="form-control" />
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<label class="col-sm-4 control-label no-padding-right"
+								for="form-field-1-1">ACTIVE</label>
+							<div class="col-sm-8">
+								<input type="text" autofocus="" id="form-field-1-1"
+									name="txtIsActive" placeholder="BALANCE" value="Y"
+									class="form-control">
+							</div>
 						</div>
 					</div>
 					<div class="form-group">
-						<label class="col-sm-2 control-label no-padding-right"
-							for="form-field-1-1">ACTIVE</label>
-						<div class="col-sm-8">
-							<input type="text" autofocus="" id="form-field-1-1"
-								name="txtIsActive" placeholder="BALANCE" value="Y"
-								class="form-control">
+						<div class="col-sm-6">
+							<label class="col-sm-4 control-label no-padding-right"
+								for="form-field-1-1">ADDED DATE</label>
+							<div class="col-sm-8">
+								<input type="text" id="form-field-1-1" autofocus=""
+									placeholder="BRANCH NAME" name="txtDeptName" value=""
+									class="form-control" />
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<label class="col-sm-4 control-label no-padding-right"
+								for="form-field-1-1">ADDED BY</label>
+							<div class="col-sm-8">
+								<input type="text" autofocus="" id="form-field-1-1"
+									name="txtIsActive" placeholder="BALANCE" 
+									class="form-control">
+							</div>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-6">
+							<label class="col-sm-4 control-label no-padding-right"
+								for="form-field-1-1">UPDATED DATE</label>
+							<div class="col-sm-8">
+								<input type="text" id="form-field-1-1" autofocus=""
+									placeholder="BRANCH NAME" name="txtDeptName" value=""
+									class="form-control" />
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<label class="col-sm-4 control-label no-padding-right"
+								for="form-field-1-1">UPDATED BY</label>
+							<div class="col-sm-8">
+								<input type="text" autofocus="" id="form-field-1-1"
+									name="txtIsActive" placeholder="BALANCE" 
+									class="form-control">
+							</div>
 						</div>
 					</div>
 			</div>
