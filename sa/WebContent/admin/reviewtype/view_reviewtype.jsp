@@ -5,7 +5,7 @@
                 <i class="ace-icon fa fa-home home-icon"></i>
                 <a>Home</a>
             </li>
-            <li>View Category</li>
+            <li>View Review Type</li>
         </ul>
     </div>
 
@@ -14,7 +14,7 @@
             <h1>
                 <small>
                     <i class="ace-icon fa fa-angle-double-right"></i>
-                    <a href="index.jsp?page=add_category">Add Category</a>
+                    <a href="index.jsp?page=add_review Type">Add Review Type</a>
                 </small>
             </h1>
         </div>
@@ -27,7 +27,7 @@
                             <thead>
                                 <tr>
                                     <th>#</th><!-- srno -->
-                                    <th>CATEGORY NAME</th>
+                                    <th>REVIEW TYPE</th>
                                     <th>STATUS</th>
                                 </tr>
                             </thead>

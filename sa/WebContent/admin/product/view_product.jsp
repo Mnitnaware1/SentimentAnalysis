@@ -5,7 +5,7 @@
                 <i class="ace-icon fa fa-home home-icon"></i>
                 <a>Home</a>
             </li>
-            <li>View Category</li>
+            <li>View Product</li>
         </ul>
     </div>
 
@@ -14,7 +14,7 @@
             <h1>
                 <small>
                     <i class="ace-icon fa fa-angle-double-right"></i>
-                    <a href="index.jsp?page=add_category">Add Category</a>
+                    <a href="index.jsp?page=add_product">Add Product</a>
                 </small>
             </h1>
         </div>
@@ -28,12 +28,24 @@
                                 <tr>
                                     <th>#</th><!-- srno -->
                                     <th>CATEGORY NAME</th>
+                                    <th>PRODUCT NAME</th>
+                                    <th>PRICE</th>
+                                    <th>QUANTITY</th>
+                                    <th>IMAGE</th>
+                                    <th>DESC</th>
                                     <th>STATUS</th>
                                 </tr>
                             </thead>
                             <tbody>
                                     <tr>
-                                        <td></td><!-- srno -->
+                                        <td>1</td><!-- srno -->
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>
+                                        	<img style="width: 60px;height: 60px;" src="../images/f4.jpg">
+                                        </td>
                                         <td></td>
                                         <td></td>
                                     </tr>

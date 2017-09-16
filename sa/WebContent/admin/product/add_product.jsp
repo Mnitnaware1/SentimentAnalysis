@@ -2,7 +2,7 @@
 	<div class="breadcrumbs ace-save-state" id="breadcrumbs">
 		<ul class="breadcrumb">
 			<li><i class="ace-icon fa fa-home home-icon"></i> <a>Home</a></li>
-			<li>Add Category</li>
+			<li>Add Product</li>
 		</ul>
 	</div>
 
@@ -10,7 +10,7 @@
 		<div class="page-header">
 			<h1>
 				<small> <i class="ace-icon fa fa-angle-double-right"></i> <a
-					href="index.jsp?page=view_category">View Category</a>
+					href="index.jsp?page=view_product">View Product</a>
 				</small>
 			</h1>
 		</div>
@@ -33,10 +33,10 @@
 						</div>
 						<div class="col-sm-6">
 							<label class="col-sm-4 control-label no-padding-right"
-								for="form-field-1-1">ACTIVE</label>
+								for="form-field-1-1">PRODUCT NAME</label>
 							<div class="col-sm-8">
 								<input type="text" autofocus="" id="form-field-1-1"
-									name="txtIsActive" placeholder="BALANCE" value="Y"
+									name="txtIsActive" placeholder="NAME" 
 									class="form-control">
 							</div>
 						</div>
@@ -44,7 +44,7 @@
 					<div class="form-group">
 						<div class="col-sm-6">
 							<label class="col-sm-4 control-label no-padding-right"
-								for="form-field-1-1">ADDED DATE</label>
+								for="form-field-1-1">PRODUCT PRICE</label>
 							<div class="col-sm-8">
 								<input type="text" id="form-field-1-1" autofocus=""
 									placeholder="BRANCH NAME" name="txtDeptName" value=""
@@ -53,7 +53,7 @@
 						</div>
 						<div class="col-sm-6">
 							<label class="col-sm-4 control-label no-padding-right"
-								for="form-field-1-1">ADDED BY</label>
+								for="form-field-1-1">TOTAL QUANTITY</label>
 							<div class="col-sm-8">
 								<input type="text" autofocus="" id="form-field-1-1"
 									name="txtIsActive" placeholder="BALANCE" 
@@ -64,16 +64,16 @@
 					<div class="form-group">
 						<div class="col-sm-6">
 							<label class="col-sm-4 control-label no-padding-right"
-								for="form-field-1-1">UPDATED DATE</label>
+								for="form-field-1-1">PRODUCT IMAGE</label>
 							<div class="col-sm-8">
-								<input type="text" id="form-field-1-1" autofocus=""
+								<input type="file" id="form-field-1-1" autofocus=""
 									placeholder="BRANCH NAME" name="txtDeptName" value=""
 									class="form-control" />
 							</div>
 						</div>
 						<div class="col-sm-6">
 							<label class="col-sm-4 control-label no-padding-right"
-								for="form-field-1-1">UPDATED BY</label>
+								for="form-field-1-1">DESCRIPTION</label>
 							<div class="col-sm-8">
 								<input type="text" autofocus="" id="form-field-1-1"
 									name="txtIsActive" placeholder="BALANCE" 

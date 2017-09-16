@@ -2,7 +2,7 @@
 	<div class="breadcrumbs ace-save-state" id="breadcrumbs">
 		<ul class="breadcrumb">
 			<li><i class="ace-icon fa fa-home home-icon"></i> <a>Home</a></li>
-			<li>Add Category</li>
+			<li>Add Review Type</li>
 		</ul>
 	</div>
 
@@ -10,7 +10,7 @@
 		<div class="page-header">
 			<h1>
 				<small> <i class="ace-icon fa fa-angle-double-right"></i> <a
-					href="index.jsp?page=view_category">View Category</a>
+					href="index.jsp?page=view_reviewtype">View Review Type</a>
 				</small>
 			</h1>
 		</div>
@@ -24,7 +24,7 @@
 					<div class="form-group">
 						<div class="col-sm-6">
 							<label class="col-sm-4 control-label no-padding-right"
-								for="form-field-1-1">CATEGORY NAME</label>
+								for="form-field-1-1">REVIEW TYPE</label>
 							<div class="col-sm-8">
 								<input type="text" id="form-field-1-1" autofocus=""
 									placeholder="BRANCH NAME" name="txtDeptName" value=""
@@ -33,7 +33,7 @@
 						</div>
 						<div class="col-sm-6">
 							<label class="col-sm-4 control-label no-padding-right"
-								for="form-field-1-1">ACTIVE</label>
+								for="form-field-1-1">DESCRIPTION</label>
 							<div class="col-sm-8">
 								<input type="text" autofocus="" id="form-field-1-1"
 									name="txtIsActive" placeholder="BALANCE" value="Y"
