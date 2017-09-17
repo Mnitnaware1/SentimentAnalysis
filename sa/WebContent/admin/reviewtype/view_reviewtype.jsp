@@ -14,7 +14,7 @@
             <h1>
                 <small>
                     <i class="ace-icon fa fa-angle-double-right"></i>
-                    <a href="index.jsp?page=add_review Type">Add Review Type</a>
+                    <a href="index.jsp?page=add_reviewtype">Add Review Type</a>
                 </small>
             </h1>
         </div>

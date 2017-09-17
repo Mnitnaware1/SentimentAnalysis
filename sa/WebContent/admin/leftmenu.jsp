@@ -9,7 +9,7 @@
     </li>
     <li class="">
         <a href="index.jsp?page=view_category" class="dropdown-toggle">
-            <i class="menu-icon fa fa-list"></i>
+            <i class="menu-icon fa fa-folder-open"></i>
             <span class="menu-text"> Manage Category</span>
             <b class="arrow fa fa-angle-down"></b>
         </a>
@@ -22,7 +22,7 @@
     
     <li class="">
         <a href="index.jsp?page=view_product" class="dropdown-toggle">
-            <i class="menu-icon fa fa-list"></i>
+            <i class="menu-icon fa fa-briefcase"></i>
             <span class="menu-text"> Manage Products </span>
             <b class="arrow fa fa-angle-down"></b>
         </a>
@@ -35,7 +35,7 @@
     
     <li class="">
         <a href="index.jsp?page=view_reviewtype" class="dropdown-toggle">
-            <i class="menu-icon fa fa-list"></i>
+            <i class="menu-icon fa fa-pencil-square-o"></i>
             <span class="menu-text"> Manage Review Type </span>
             <b class="arrow fa fa-angle-down"></b>
         </a>
@@ -48,7 +48,7 @@
     
     <li class="">
         <a href="index.jsp?page=view_review" class="dropdown-toggle">
-            <i class="menu-icon fa fa-list"></i>
+            <i class="menu-icon fa fa-comments"></i>
             <span class="menu-text"> Manage Review</span>
             <b class="arrow fa fa-angle-down"></b>
         </a>
