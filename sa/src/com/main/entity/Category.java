@@ -13,6 +13,19 @@ public class Category {
 	@Id
 	@Column(name = "id")
 	private int id;
+	
+	public Category(int id, String categoryName, String categoryDescription, boolean isActive, int addedBy,
+			int updatedBy, Date addedDate, Date updatedDate) {
+		super();
+		this.id = id;
+		this.categoryName = categoryName;
+		this.categorDescription = categoryDescription;
+		this.isActive = isActive;
+		this.addedBy = addedBy;
+		this.updatedBy = updatedBy;
+		this.addedDate = addedDate;
+		this.upadatedDate = updatedDate;
+	}
 
 	@Column(name = "category_name")
 	private String categoryName;

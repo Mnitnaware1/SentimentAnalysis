@@ -2,36 +2,38 @@ package com.main.dao;
 
 import java.util.List;
 
+import com.main.entity.Category;
+
 public class CategoryImpl implements ICategory {
 
 	@Override
-	public String saveCategory(Object object) {
+	public String saveCategory(Category object) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public String updateCategory(Object object) {
+	public String updateCategory(Category object) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public String deleteCategory(Object object) {
+	public String deleteCategory(Category object) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public List<Object> listCategory() {
+	public List<Category> listCategory() {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public List<Object> getCategory(Integer primary) {
+	public List<Category> getCategory(Integer primary) {
 		// TODO Auto-generated method stub
 		return null;
 	}
-
+ 
 }
