@@ -1,7 +1,7 @@
 <div class="header">
     <div class="head-t">
         <div class="logo">
-            <a href="index.jsp"><h1>Nuevo <span>Shop</span></h1> </a>
+            <a href="index.jsp"><h1>Shop <span>Now</span></h1> </a>
         </div>
         <div class="clearfix"></div>	
     </div>
