@@ -14,6 +14,10 @@ public class Category {
 	@Column(name = "id")
 	private int id;
 	
+	public Category() {
+		// TODO Auto-generated constructor stub
+	}
+	
 	public Category(int id, String categoryName, String categoryDescription, boolean isActive, int addedBy,
 			int updatedBy, Date addedDate, Date updatedDate) {
 		super();
